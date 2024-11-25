@@ -1,15 +1,8 @@
 ---
 channel: edge
 addons:
-  tvheadend:
-    repository: dfigus/addon-tvheadend
-    target: tvheadend
-    image: ghcr.io/dfigus/tvheadend/{arch}
-  usb-test:
-    repository: dfigus/addon-usb-test
-    target: usb-test
-    image: ghcr.io/dfigus/usb-test/{arch}
+
   solarflow-control:
-    repository: dfigus/addon-solarflow-control
+    repository: atrox06/addon-solarflow-control
     target: solarflow-control
-    image: ghcr.io/dfigus/solarflow-control/{arch}
+    image: ghcr.io/atrox06/solarflow-control/{arch}
