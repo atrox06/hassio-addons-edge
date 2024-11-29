@@ -8,7 +8,7 @@ on:
       addon:
         description: 'Addon to update'
         required: true
-        default: 'tvheadend'
+        default: 'addon-solarflow-control'
         type: string
       force:
         description: 'Force Update'
