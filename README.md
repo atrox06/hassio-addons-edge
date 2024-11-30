@@ -1,4 +1,4 @@
-# EDGE Home Assistant Add-ons by Daniel Figus
+# EDGE Home Assistant Add-ons by Joerg Maier
 
 ![Project Stage][project-stage-shield]
 ![Maintenance][maintenance-shield]
@@ -22,7 +22,7 @@ This repository was created for:
 
 If you are more interested in stable releases of my add-ons:
 
-<https://github.com/dfigus/hassio-addons>
+<https://github.com/atrox06/hassio-addons>
 
 ## Installation
 
@@ -32,7 +32,7 @@ Adding this add-ons repository to your Home Assistant instance is pretty easy. I
 Use the following URL to add this repository:
 
 ```txt
-https://github.com/dfigus/hassio-addons-edge
+https://github.com/atrox06/hassio-addons-edge
 ```
 
 [![Opens your Home Assistant instance and show the add add-on repository dialog with the repository URL pre-filled](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)][my-ha-add-repo]
@@ -52,31 +52,6 @@ Solarflow Control
 
 [:books: Solarflow Control add-on documentation][addon-doc-solarflow-control]
 
-### &#10003; [TVHeadend][addon-tvheadend]
-
-![Latest Version][tvheadend-version-shield]
-![Supports armhf Architecture][tvheadend-armhf-shield]
-![Supports armv7 Architecture][tvheadend-armv7-shield]
-![Supports aarch64 Architecture][tvheadend-aarch64-shield]
-![Supports amd64 Architecture][tvheadend-amd64-shield]
-![Supports i386 Architecture][tvheadend-i386-shield]
-
-TV streaming server and recorder
-
-[:books: TVHeadend add-on documentation][addon-doc-tvheadend]
-
-### &#10003; [USB-Test][addon-usb-test]
-
-![Latest Version][usb-test-version-shield]
-![Supports armhf Architecture][usb-test-armhf-shield]
-![Supports armv7 Architecture][usb-test-armv7-shield]
-![Supports aarch64 Architecture][usb-test-aarch64-shield]
-![Supports amd64 Architecture][usb-test-amd64-shield]
-![Supports i386 Architecture][usb-test-i386-shield]
-
-USB Test
-
-[:books: USB-Test add-on documentation][addon-doc-usb-test]
 
 ## Releases
 
