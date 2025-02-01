@@ -24,13 +24,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Set up Git user
-        run: |
-          git config --global user.name "atrox06"
-          git config --global user.email "41265009+atrox06@users.noreply.github.com"
-
       - name: 🚀 Run Repository Updater
-        uses: hassio-addons/repository-updater@v1
         run: |
           git config --global user.name "atrox06"
           git config --global user.email "41265009+atrox06@users.noreply.github.com"
