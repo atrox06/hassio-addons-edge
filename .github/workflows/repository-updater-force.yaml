@@ -31,8 +31,7 @@ jobs:
 
       - name: 🚀 Run Repository Updater
         uses: hassio-addons/repository-updater@v1
-        with:
-          addon: ${{ inputs.addon }}
-          repository: ${{ github.repository }}
-          token: ${{ secrets.UPDATER_TOKEN }}
-          force: ${{ inputs.force }}
+        run: |
+          git config --global user.name "atrox06"
+          git config --global user.email "41265009+atrox06@users.noreply.github.com"
+          repository-updater --addon ${{ inputs.addon }} --repository ${{ github.repository }} --token ${{ secrets.UPDATER_TOKEN }} --force ${{ inputs.force }}
