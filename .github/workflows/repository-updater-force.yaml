@@ -12,7 +12,7 @@ on:
       force:
         description: 'Force Update'
         required: false
-        default: 'false'
+        default: false
         type: boolean
 
 jobs:
