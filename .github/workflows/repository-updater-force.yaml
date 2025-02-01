@@ -8,11 +8,7 @@ on:
       addon:
         description: 'Addon to update'
         required: true
-<<<<<<< HEAD
         default: 'addon-solarflow-control'
-=======
-        default: 'solarflow-control'
->>>>>>> d5cde86 (Update Solarflow Control configuration and README for repository ownership and version changes)
         type: string
       force:
         description: 'Force Update'
